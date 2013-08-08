@@ -37,9 +37,9 @@ public class NativeJMSProducer {
             MessageProducer msgProducer = null;
             Destination destination = null;
 
-            String serverUrl = "tcp://sdgtib04.dstblab.cv.net:5122";
-            String userName = "rsdvruser";
-            String password = "rsdvruser";
+            String serverUrl = "localhost:7122";
+            String userName = "user";
+            String password = "passwd";
 //            String destName = "queue.sample";
             String destName = "topic.sample";
 
